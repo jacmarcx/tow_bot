@@ -158,8 +158,6 @@ def extent_calculator(locations):
     lng_diff/lat_diff ratio of 1.33 at all time.
     Also adds a padding for margins.
     Key is to adjust the coordinate value to adjust bounding box... not the pad
-
-    Note: this is sketch, consider using a Projected CRS.
     """
     # pads that ensure lng_diff/lat_diff ratio of 1.333
     # get actual min and max values for lat and lngs from entire list of locations
