@@ -29,7 +29,7 @@ import cartopy.io.img_tiles as cimgt
 import time
 import pytz
 from PIL import Image
-import creds
+import creds # twitter account creds stored on server
 
 
 # list has grown out of control... move to csv.
